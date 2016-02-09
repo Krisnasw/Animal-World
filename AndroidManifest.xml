@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.animalworld"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.animalworld.AnimalWorldActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.animalworld.Menu_utama"
+            android:label="@string/title_activity_menu_utama" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.CatActivity"
+            android:label="@string/title_activity_cat" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.ChickenActivity"
+            android:label="@string/title_activity_chicken" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.CowActivity"
+            android:label="@string/title_activity_cow" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.DogActivity"
+            android:label="@string/title_activity_dog" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.DuckActivity"
+            android:label="@string/title_activity_duck" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.HorseActivity"
+            android:label="@string/title_activity_horse" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.SheepActivity"
+            android:label="@string/title_activity_sheep" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.BeeActivity"
+            android:label="@string/title_activity_bee" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.BirdActivity"
+            android:label="@string/title_activity_bird" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.BoarActivity"
+            android:label="@string/title_activity_boar" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.ChimpanzeeActivity"
+            android:label="@string/title_activity_chimpanzee" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.EagleActivity"
+            android:label="@string/title_activity_eagle" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.ElephantActivity"
+            android:label="@string/title_activity_elephant" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.GeeseActivity"
+            android:label="@string/title_activity_geese" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.GorillaActivity"
+            android:label="@string/title_activity_gorilla" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.LeopardActivity"
+            android:label="@string/title_activity_leopard" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.LionActivity"
+            android:label="@string/title_activity_lion" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.MonkeyActivity"
+            android:label="@string/title_activity_monkey" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.PigActivity"
+            android:label="@string/title_activity_pig" >
+        </activity>
+        <activity
+            android:name="com.example.animalworld.TigerActivity"
+            android:label="@string/title_activity_tiger" >
+        </activity>
+    </application>
+
+</manifest>

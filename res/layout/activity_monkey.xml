@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center|center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MonkeyActivity" >
+
+    <ImageButton 
+        android:id="@+id/play"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/monkey_spell_1"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:adjustViewBounds="true"  
+        android:background="@null"  
+        />
+
+</RelativeLayout>
